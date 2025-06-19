@@ -5,8 +5,8 @@ import { Providers } from '@/providers/provider'
 import Script from 'next/script'
 
 export const metadata = {
-  title: 'Edustarr',
-  description: 'GG',
+  title: 'EduStarr | ESAT 2025',
+  description: 'EduStarr | ESAT 2025',
 }
 
 export default function RootLayout({

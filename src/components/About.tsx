@@ -187,7 +187,7 @@ export default function About() {
               </div>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div className="flex items-center">
-                  <Clock className="w-13 md:w-6 h-13 md:h-6 mr-3 text-yellow-500" />
+                  <Clock className="w-16 md:w-6 h-16 md:h-6 mr-3 text-yellow-500" />
                   <div>
                     <p className="font-semibold text-gray-900">Flexible Timing</p>
                     <p className="text-gray-700">
@@ -394,19 +394,19 @@ export default function About() {
                 <h4 className="text-lg font-semibold mb-4 text-center text-gray-900">What you get:</h4>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
                   <div className="flex items-center">
-                    <CheckCircle className="w-5 h-5 mr-3 text-green-600" />
+                    <CheckCircle className="w-5 h-5 md:w-6 md:h-6 mr-3 text-green-600" />
                     <span className="text-sm text-gray-700">Eligibility for scholarships worth 15 lakhs</span>
                   </div>
                   <div className="flex items-center">
-                    <CheckCircle className="w-5 h-5 mr-3 text-green-600" />
+                    <CheckCircle className="w-5 h-5 md:w-5 md:h-5 mr-3 text-green-600" />
                     <span className="text-sm text-gray-700">Digital certificate of achievement</span>
                   </div>
                   <div className="flex items-center">
-                    <CheckCircle className="w-5 h-5 mr-3 text-green-600" />
+                    <CheckCircle className="w-5 h-5 md:w-6 md:h-6 mr-3 text-green-600" />
                     <span className="text-sm text-gray-700">Free learning resources for top performers</span>
                   </div>
                   <div className="flex items-center">
-                    <CheckCircle className="w-5 h-5 mr-3 text-green-600" />
+                    <CheckCircle className="w-6 h-6 md:w-6 md:h-6 mr-3 text-green-600" />
                     <span className="text-sm text-gray-700">Free mentorship for 1 month for top performers</span>
                   </div>
                 </div>

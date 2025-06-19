@@ -178,7 +178,7 @@ export default function Contact() {
                       <div className="min-w-0 flex-1">
                         <p className="text-sm text-gray-600 mb-1 font-medium">Email Address</p>
                         <a
-                          href="mailto:edustarr.dev@gmail.com"
+                          href="mailto:support@edustarr.in"
                           className="font-semibold hover:underline transition-all duration-300 text-lg break-all"
                           style={{ color: "#0175c3" }}
                         >

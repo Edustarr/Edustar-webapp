@@ -98,7 +98,7 @@ const TermsAndConditions: React.FC = () => {
                 <li style={styles.li}>By registering, you consent to the collection and use of your personal and academic data for test administration, evaluation, and communication.</li>
                 <li style={styles.li}>
                     Refer to our{' '}
-                    <a href="/privacy-policy" style={styles.link}>
+                    <a href="/privacy_policy" style={styles.link}>
                         Privacy Policy
                     </a>{' '}
                     for full details on how your data is handled.
