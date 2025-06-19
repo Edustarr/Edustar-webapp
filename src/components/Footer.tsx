@@ -152,7 +152,7 @@ export default function Footer() {
               {/* Quick Links for Mobile */}
               <div className="flex flex-wrap justify-center md:justify-end items-center space-x-1 text-sm">
                 <a
-                  href="/privacy-policy"
+                  href="/privacy_policy"
                   className="px-3 py-1 transition-all duration-300 hover:bg-white hover:shadow-sm rounded-md"
                   style={{ color: "#111111" }}
                 >
@@ -160,7 +160,7 @@ export default function Footer() {
                 </a>
                 <span style={{ color: "#9CA3AF" }}>|</span>
                 <a
-                  href="/terms-conditions"
+                  href="/terms_and_conditions"
                   className="px-3 py-1 transition-all duration-300 hover:bg-white hover:shadow-sm rounded-md"
                   style={{ color: "#111111" }}
                 >

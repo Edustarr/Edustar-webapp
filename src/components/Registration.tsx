@@ -35,7 +35,7 @@ export default function SignupPage() {
     full_name: /^[a-zA-Z\s]{2,50}$/,
     email:
       /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*$/,
-    password: /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$/,
+    password: /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&#`~$%])[A-Za-z\d@$!%*?&#`~$%]{6,}$/,
   }
 
   const validateField = (name: string, value: string): ValidationState => {

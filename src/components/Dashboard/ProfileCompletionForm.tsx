@@ -750,8 +750,8 @@ const ProfileCompletionForm: React.FC<ProfileCompletionFormProps> = ({ registrat
             onChange={(e) => setAgreements((prev) => ({ ...prev, declaration: e.target.checked }))}
             className="mt-1 w-4 h-4 text-blue-600 border-2 border-gray-300 rounded focus:ring-blue-500"
           />
-          <label htmlFor="declaration" className="text-sm text-gray-700">
-            ✅ I hereby declare that all the information provided is true to the best of my knowledge.
+          <label htmlFor="declaration" className="text-sm text-gray-700 text-justify">
+             I hereby declare that all the information provided is true to the best of my knowledge.
           </label>
         </div>
 
@@ -763,8 +763,8 @@ const ProfileCompletionForm: React.FC<ProfileCompletionFormProps> = ({ registrat
             onChange={(e) => setAgreements((prev) => ({ ...prev, terms: e.target.checked }))}
             className="mt-1 w-4 h-4 text-blue-600 border-2 border-gray-300 rounded focus:ring-blue-500"
           />
-          <label htmlFor="terms" className="text-sm text-gray-700">
-            ✅ I agree to the terms and conditions of EduStarr.
+          <label htmlFor="terms" className="text-sm text-gray-700 text-justify">
+            I agree to the <span className=" text-blue-900 font-bold hover:underline"><a href="/terms_and_conditions">terms and conditions</a></span> of EduStarr.
           </label>
         </div>
       </div>

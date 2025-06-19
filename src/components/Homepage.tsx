@@ -69,7 +69,7 @@ export default function Homepage() {
                     }}
                   >
                     <span className="relative z-10"><a href="/register">Register Now - ₹200 Only</a></span>
-                    <div className="absolute inset-0 bg-yellow-400 hover:bg-yellow-500 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                    <div className="absolute inset-0  opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                   </button>
                   <button
                     className="px-12 py-5 rounded-xl font-bold text-xl transition-all duration-300 hover:scale-105 hover:shadow-2xl transform active:scale-95 border-3 hover:bg-white"
@@ -79,7 +79,7 @@ export default function Homepage() {
                       borderColor: "#0B1D3A",
                       borderWidth: "3px",
                     }}
-                  ><a href="/about">
+                  ><a href="/about#prize">
                     View Prize Structure</a>
                   </button>
                 </div>
@@ -398,7 +398,7 @@ export default function Homepage() {
                         Begin your child's ESAT journey with a simple registration process.
                       </p>
                       <p className="font-bold" style={{ color: "#D4AF37" }}>
-                        August 01, 2025
+                        July 01, 2025
                       </p>
                     </div>
                   </div>
@@ -586,7 +586,7 @@ export default function Homepage() {
                     }}
                   ><a href="/register">
                     <span className="relative z-10"> Register for ESAT 2025 Now</span></a>
-                    <div className="absolute inset-0 bg-yellow-400  opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                    <div className="absolute inset-0   opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                   </button>
 
                   <p className="text-lg" style={{ color: "#111111" }}>

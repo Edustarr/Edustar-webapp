@@ -187,7 +187,7 @@ export default function About() {
               </div>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div className="flex items-center">
-                  <Clock className="w-6 h-6 mr-3 text-yellow-400" />
+                  <Clock className="w-13 md:w-6 h-13 md:h-6 mr-3 text-yellow-500" />
                   <div>
                     <p className="font-semibold text-gray-900">Flexible Timing</p>
                     <p className="text-gray-700">
@@ -196,7 +196,7 @@ export default function About() {
                   </div>
                 </div>
                 <div className="flex items-center">
-                  <Target className="w-6 h-6 mr-3 text-blue-600" />
+                  <Target className="w-13 md:w-6 h-13 md:h-6 mr-3 text-blue-600" />
                   <div>
                     <p className="font-semibold text-gray-900">Single Attempt</p>
                     <p className="text-gray-700">Complete the test in one sitting within the 1-hour time limit</p>
@@ -278,14 +278,14 @@ export default function About() {
                   <h4 className="text-2xl font-bold mb-4 text-gray-900">Syllabus Coverage</h4>
                   <div className="space-y-4">
                     <div className="flex items-center">
-                      <CheckCircle className="w-6 h-6 mr-3 text-green-600" />
+                      <CheckCircle className="h-6 w-6 mr-3 text-green-600" />
                       <div>
                         <span className="font-semibold text-gray-900">Based on: </span>
                         <span className="text-gray-700">NCERT curriculum</span>
                       </div>
                     </div>
                     <div className="flex items-center">
-                      <CheckCircle className="w-6 h-6 mr-3 text-green-600" />
+                      <CheckCircle className="md:w-6 md:h-6 w-13 h-13 mr-3 text-green-600" />
                       <div>
                         <span className="font-semibold text-gray-900">Portion Covered: </span>
                         <span className="text-gray-700">Topics taught till September of current academic year</span>
@@ -304,10 +304,10 @@ export default function About() {
         </div>
       </section>
 
-      <section className="py-20 px-4 bg-gray-50">
+      <section className="py-20 px-4 bg-gray-50"id="prize">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-bold mb-6 text-gray-900">Prizes & Scholarships</h2>
+            <h2 className="text-4xl md:text-5xl font-bold mb-6 text-gray-900 " >Prizes & Scholarships</h2>
             <p className="text-xl max-w-3xl mx-auto text-gray-700">
               Rewards for outstanding performance in ESAT 2025. All amounts are in INR.
             </p>
@@ -413,7 +413,7 @@ export default function About() {
               </div>
 
               <div>
-                <button className="px-12 py-4 rounded-2xl font-bold text-xl transition-all duration-300 hover:scale-105 hover:shadow-2xl transform active:scale-95 bg-yellow-400 hover:bg-yellow-500 text-gray-900 shadow-lg mb-4">
+                <button className="px-12 py-4 rounded-2xl font-bold text-xl transition-all duration-300 hover:scale-105 hover:shadow-2xl transform active:scale-95 bg-yellow-300  text-gray-900 shadow-lg mb-4">
                   <a href="/register">
                   Register for ESAT 2025 Now
                   </a>
