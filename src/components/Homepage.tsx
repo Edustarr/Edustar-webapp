@@ -1,6 +1,5 @@
 "use client"
 import LottiePlayer from "./LottiePlayer"
-import Image from "next/image"
 
 export default function Homepage() {
 
@@ -168,7 +167,7 @@ export default function Homepage() {
                 <div className="relative z-10 flex flex-col h-full">
                   <div className="mb-6 text-center flex-shrink-0">
                     <div className="h-48 w-full">
-                      <Image 
+                      <img 
                         src='https://res.cloudinary.com/dk6m1qejk/image/upload/v1750290238/Strengths_ntnomp.png' 
                         width={400}
                         height={300}
@@ -199,7 +198,7 @@ export default function Homepage() {
                 <div className="relative z-10 flex flex-col h-full">
                   <div className="mb-6 text-center flex-shrink-0">
                     <div className="h-48 w-full">
-                      <Image 
+                      <img 
                         src='https://res.cloudinary.com/dk6m1qejk/image/upload/v1750290246/7855864_dbqoxn.png' 
                         width={400}
                         height={300}
@@ -230,7 +229,7 @@ export default function Homepage() {
                 <div className="relative z-10 flex flex-col h-full">
                   <div className="mb-6 text-center flex-shrink-0">
                     <div className="h-48 w-full">
-                      <Image 
+                      <img 
                         src='https://res.cloudinary.com/dk6m1qejk/image/upload/v1750290232/Recognition_txudm2.png' 
                         width={400}
                         height={300}
@@ -261,7 +260,7 @@ export default function Homepage() {
                 <div className="relative z-10 flex flex-col h-full">
                   <div className="mb-6 text-center flex-shrink-0">
                     <div className="h-48 w-full">
-                      <Image 
+                      <img
                         src='https://res.cloudinary.com/dk6m1qejk/image/upload/v1750290243/Syllabus_qkulq9.png' 
                         width={400}
                         height={300}
@@ -292,7 +291,7 @@ export default function Homepage() {
                 <div className="relative z-10 flex flex-col h-full">
                   <div className="mb-6 text-center flex-shrink-0">
                     <div className="h-48 w-full">
-                      <Image 
+                      <img
                         src='https://res.cloudinary.com/dk6m1qejk/image/upload/v1750290235/4955889_ea0xtq.png' 
                         width={400}
                         height={300}
@@ -323,7 +322,7 @@ export default function Homepage() {
                 <div className="relative z-10 flex flex-col h-full">
                   <div className="mb-6 text-center flex-shrink-0">
                     <div className="h-48 w-full">
-                      <Image 
+                      <img
                         src='https://res.cloudinary.com/dk6m1qejk/image/upload/v1749508421/The_Little_Things_-_Business_Planning_dd98au.png' 
                         width={400}
                         height={300}
