@@ -42,7 +42,7 @@ const PaymentSuccess = () => {
 
         const json = await res.json();
 
-        if (!res.ok || !json?.orderId) {
+        if (!res.ok ) {
           setStatus("Payment verification failed. Please contact support.");
           return;
         }
