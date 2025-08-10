@@ -41,10 +41,6 @@ const PaymentSuccess = () => {
         
 
         const json = await res.json();
-
-        console.log("Response from the validator:",json)
-        console.log("Response payment id:",json.paymentDetails)
-        console.log("Response order id:",json.orderId)
         if (!res.ok ) {
           setStatus("Payment verification failed. Please contact support.");
           return;
