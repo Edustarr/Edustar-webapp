@@ -38,10 +38,11 @@ const PaymentSuccess = () => {
             "Content-Type": "application/json",
           },
         });
-        console.log("Response from the validator:",res.json())
         
 
         const json = await res.json();
+
+        console.log("Response from the validator:",json)
         console.log("Response payment id:",json.paymentDetails[0].transactionId)
         console.log("Response order id:",json.orderId)
         if (!res.ok ) {
