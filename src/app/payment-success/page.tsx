@@ -20,7 +20,7 @@ const PaymentSuccess = () => {
       }
 
       const merchantTransactionId = localStorage.getItem("merchantOrderId");
-      const orderId = localStorage.getItem("orderId");
+      const orderId = localStorage.getItem("merchantOrderId");
 
       if (!merchantTransactionId || !orderId) {
         setStatus("No transaction found.");
