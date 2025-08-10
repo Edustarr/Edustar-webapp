@@ -43,7 +43,7 @@ const PaymentSuccess = () => {
         const json = await res.json();
 
         console.log("Response from the validator:",json)
-        console.log("Response payment id:",json.paymentDetails[0].transactionId)
+        console.log("Response payment id:",json.paymentDetails)
         console.log("Response order id:",json.orderId)
         if (!res.ok ) {
           setStatus("Payment verification failed. Please contact support.");
@@ -58,7 +58,7 @@ const PaymentSuccess = () => {
           .from("registrations")
           .update({
             registration_status: "submitted",
-            payment_id: json.paymentDetails[0].transactionId,
+            payment_id: json.paymentDetails,
             order_id: json.orderId,
           })
           .eq("user_id", user.id);
