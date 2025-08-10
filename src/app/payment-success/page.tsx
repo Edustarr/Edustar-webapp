@@ -38,6 +38,7 @@ const PaymentSuccess = () => {
             "Content-Type": "application/json",
           },
         });
+        console.log("Response from the validator:",res)
 
         const json = await res.json();
 
