@@ -1,10 +1,10 @@
-import Homepage from '../components/Homepage'
+import PrivacyPolicy from '../../components/PrivacyPolicy'
 import React from 'react'
 
 export default function page() {
   return (
     <>
-        <Homepage/>
+        <PrivacyPolicy/>
     </>
   )
 }
