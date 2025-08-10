@@ -57,6 +57,7 @@ export async function POST(req: NextRequest) {
       expireAt: response.expireAt,
       paymentDetails: response.paymentDetails ?? [],
     };
+    console.log(result);
 
     return NextResponse.json(result, { status: 200 });
   } catch (error: any) {
