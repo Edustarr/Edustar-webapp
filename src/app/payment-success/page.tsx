@@ -45,7 +45,7 @@ const PaymentSuccess = () => {
           setStatus("Payment verification failed. Please contact support.");
           return;
         }
-        if (json?.state=="PENDING" || json?.state=="FAILED") {
+        if (json?.state=="PENDING" || json?.state=="FAILED"||json?.state!="COMPLETED") {
           setStatus(`Payment Verification failed due to status: ${json?.state}`);
           return;
         }
