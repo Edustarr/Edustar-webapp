@@ -49,6 +49,7 @@ const PaymentSuccess = () => {
           setStatus(`Payment Verification failed due to status: ${json?.state}`);
           return;
         }
+        console.log(json?.state);
 
         const { error } = await supabase
           .from("registrations")
