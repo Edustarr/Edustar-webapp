@@ -39,7 +39,7 @@ export async function POST(req: NextRequest) {
     }
 
     // Make sure you are correctly calling the PhonePe SDK method
-    const response = await client.getTransactionStatus(merchantOrderId);
+    const response = await client.getTransactionStatus(orderId);
 
     if (!response) {
       console.error('🚫 Invalid response from PhonePe SDK:', response);
