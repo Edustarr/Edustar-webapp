@@ -18,11 +18,13 @@ const LottiePlayer = ({
   autoplay = true,
 }: LottiePlayerProps) => {
   return (
-    <DotLottieReact
+    <DotLottieReact 
       src={src}
       className={className}
       loop={loop}
       autoplay={autoplay}
+      height={250}
+      width={250}
     />
   );
 };
