@@ -191,7 +191,7 @@ const handlePayment = async () => {
   setPaymentLoading(true);
 
   try {
-    const amount = 20000; // in paise (₹200)
+    const amount = 20; // in paise (₹200)
 
     // Generate a unique merchantTransactionId using crypto
     const merchantTransactionId = `TXN_${crypto.randomUUID()}`;
