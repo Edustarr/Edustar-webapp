@@ -19,7 +19,7 @@ const PaymentSuccess = () => {
         return;
       }
 
-      const merchantTransactionId = localStorage.getItem("merchantOrderId");
+      const merchantTransactionId = localStorage.getItem("merchantTransactionId");
       const orderId = localStorage.getItem("merchantOrderId");
 
       if (!merchantTransactionId || !orderId) {
