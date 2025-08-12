@@ -210,7 +210,6 @@ const handlePayment = async () => {
     const resData = await response.json();
 
     const merchantOrderId=resData?.merchantOrderId;
-    console.log(merchantOrderId);
     const redirectTo=resData?.paymentUrl;
     if ( !merchantOrderId ) {
       throw new Error("Invalid PhonePe response: Missing redirect URL or order ID.");
