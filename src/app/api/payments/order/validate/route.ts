@@ -12,7 +12,7 @@ export async function POST(req: NextRequest) {
     }
 
     const body = await req.json();
-    const merchantOrderId = body?.merchantOrderId;
+    const merchantOrderId = body?.merchantOrderId.trim();
     const orderId = body?.orderId?.trim();
 
     if (!merchantOrderId || !orderId) {
@@ -22,7 +22,6 @@ export async function POST(req: NextRequest) {
         { status: 400 }
       );
     }
-
     // Make sure you are correctly calling the PhonePe SDK method
     const response = await phonePeClient.getTransactionStatus(orderId);
 

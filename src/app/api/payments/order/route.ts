@@ -15,7 +15,7 @@ export async function POST(req: NextRequest) {
       );
     }
 
-    const merchantOrderId = randomUUID();
+    const merchantOrderId = randomUUID().trim();
     const amountInPaise = amount * 100;
 
     const request = StandardCheckoutPayRequest.builder()
