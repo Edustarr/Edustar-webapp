@@ -25,8 +25,7 @@ export async function POST(req: NextRequest) {
       .build();
 
     const response = await phonePeClient.pay(request);
-
-
+    console.log(response)
     if (!response?.redirectUrl) {
       return NextResponse.json(
         { error: 'Missing redirectUrl from PhonePe' },
