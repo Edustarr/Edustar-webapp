@@ -1,20 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server';
-import { StandardCheckoutClient, Env } from 'pg-sdk-node';
-
-// Load config
-const CLIENT_ID = process.env.PHONEPE_CLIENT_ID!;
-const CLIENT_SECRET = process.env.PHONEPE_CLIENT_SECRET!;
-const CLIENT_VERSION = parseInt(process.env.PHONEPE_CLIENT_VERSION || '1');
-const ENVIRONMENT = Env.SANDBOX;
-const env = Env.PRODUCTION; // Assuming you want to use sandbox environment
-
-// Initialize PhonePe SDK client
-const client = StandardCheckoutClient.getInstance(
-  CLIENT_ID,
-  CLIENT_SECRET,
-  CLIENT_VERSION,
-  ENVIRONMENT
-);
+import phonePeClient from '@/lib/phonepayClient';
 
 export async function POST(req: NextRequest) {
   try {
@@ -39,7 +24,7 @@ export async function POST(req: NextRequest) {
     }
 
     // Make sure you are correctly calling the PhonePe SDK method
-    const response = await client.getTransactionStatus(orderId);
+    const response = await phonePeClient.getTransactionStatus(orderId);
 
     if (!response) {
       console.error('🚫 Invalid response from PhonePe SDK:', response);
