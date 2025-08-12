@@ -12,7 +12,7 @@ export async function POST(req: NextRequest) {
     }
 
     const body = await req.json();
-    const merchantOrderId = body?.merchantOrderId?.trim();
+    const merchantOrderId = body?.merchantOrderId;
     const orderId = body?.orderId?.trim();
 
     if (!merchantOrderId || !orderId) {
