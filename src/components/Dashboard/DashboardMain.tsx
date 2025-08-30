@@ -298,7 +298,7 @@ const handlePayment = async () => {
   // Show loading state
   if (loading) return <DashboardLoading />
   // Show message if no registration found
-  if (!registration) return <DashboardNoRegistration />
+  if (!registration) return <DashboardNoRegistration/>
 
   const isSubmitted = registration.registration_status === "submitted"
   const hasPaymentInfo = Boolean(registration.payment_id && registration.order_id)

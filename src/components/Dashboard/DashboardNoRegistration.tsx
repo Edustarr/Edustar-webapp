@@ -26,7 +26,7 @@ export default function DashboardNoRegistration() {
               You haven't started your registration for ESAT 2025 yet. Begin your journey towards academic excellence today!
             </p>
             <button
-              onClick={() => router.push("/registrations")}
+              onClick={() => router.push("/register")}
               className="px-8 py-4 rounded-xl font-bold text-lg transition-all duration-300 hover:scale-105 hover:shadow-xl transform active:scale-95 relative overflow-hidden group"
               style={{
                 backgroundColor: "#0175c3",
